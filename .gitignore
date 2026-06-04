@@ -1,0 +1,44 @@
+# about manuscript
+*/*.ps
+*/*.dvi
+*/*.pag
+*/*.aux
+*/*.dbj
+*/*.bbl
+*/*.bcf
+*/*.blg
+*/*.idx
+*/*.ind
+*/*.ilg
+*/*.log
+*/*.toc
+*/*.xml
+*/*.zip
+*/*.out
+*/*.swp
+*/*.pdf
+*/*.gz
+*/*.fls
+*/*.fdb*
+!figures/*.pdf
+# *.tex
+*/*.html
+manuscript/main_files
+
+
+# code
+code/*/*
+
+# data
+data/ADNI.csv
+
+# Rnw
+*/Rnw/cache
+
+.vscode
+.DS_Store
+.RData
+.Rapp.history
+.Rhistory
+*.rds
+*code/.RDataTmp
